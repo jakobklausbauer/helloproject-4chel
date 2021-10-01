@@ -21,6 +21,6 @@ Ganzzahl Haupteinstiegspunkt()
 	schreib << "Hello World!" << Zeilenende;
 	string name;
 	cin >> name;
-	schreib << "Hello " << name << "!" << Zeilenende;
+	schreib << "Hello Liebe(r) " << name << "!" << Zeilenende;
 	gibZurueck 0;
 }
