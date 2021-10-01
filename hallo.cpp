@@ -1,6 +1,7 @@
 //mein hallo-programm
 
 #include <iostream>
+#include <string>
 #define verwende using
 #define Namensbereich namespace
 #define standard std
@@ -18,5 +19,8 @@ verwende Namensbereich standard;
 Ganzzahl Haupteinstiegspunkt()
 {
 	schreib << "Hello World!" << Zeilenende;
+	string name;
+	cin >> name;
+	schreib << "Hello " << name << "!" << Zeilenende;
 	gibZurueck 0;
 }
