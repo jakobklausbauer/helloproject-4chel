@@ -4,11 +4,19 @@
 #define verwende using
 #define Namensbereich namespace
 #define standard std
+#define Ganzzahl int
+#define Haupteinstiegspunkt main
 
 verwende Namensbereich standard;
 
-int main()
+#define schreib cout
+#define Zeilenende endl
+#define gibZurueck
+
+
+
+Ganzzahl Haupteinstiegspunkt()
 {
-	cout << "Hello World!" << endl;
-	return 0;
+	schreib << "Hello World!" << Zeilenende;
+	gibZurueck 0;
 }
